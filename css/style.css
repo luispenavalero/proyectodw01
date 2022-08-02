@@ -669,52 +669,47 @@ tbody td {
     align-items: center;
     height: 22vh;
     justify-content: center;
+    margin-bottom: 0;
     background-color: rgb(242, 178, 17); 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);  
-    margin-bottom: 2vh;     
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);      
 }
 
 .client_title_div h2 {
     font-size: 3rem;
 }
 
-.client_div {
+.client_principal_div {
+    background-color: rgb(30, 30, 30);
+}
+
+.clientimg {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding-top: 2vh;
+}
+
+.row div {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
     margin-bottom: 2vh;
-    padding-bottom: 5vh;
-    align-items: center;
-    background: linear-gradient(360deg,rgb(212, 207, 197), rgba(91, 92, 77)); 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);       
-}
-
-.client_img_div {
-    display: flex;
-    height: 38vh;
-    width: 75%;
-    margin-left: 5%;
-    margin-right: 5%;
-    align-items: center;
-    justify-content: center;      
-}
-
-.client_img_div img {
-    margin-left: 25%;
-    margin-right: 25%;
-    height: 90%;
-    width: 100%; 
+    color: rgb(237, 236, 234);
 }
 
 .client01_title {
     font-size: 2rem;
+    font-weight: 900;
 }
 
-.client01_description {
-    font-size: 1rem;
-    margin-left: 5%;
-    margin-right: 5%; 
-    padding-bottom: 2vh;
+.client_premiation {
+    color: rgb(126, 126, 126); 
+    font-weight: 900;
+    font-style: italic;   
 }
 
 /* form grid desktop */
