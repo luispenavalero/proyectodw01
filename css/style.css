@@ -998,6 +998,10 @@ form {
                                 "a3";
     }
 
+    .client_premiation {
+        display: none;
+    }
+
     /* contact grib mobile */
 
     .grid_contact {
