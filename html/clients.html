@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Clients</title>
 </head>
@@ -27,16 +27,16 @@
                                 <a href="../index.html">Home</a>
                             </li>
                             <li>
-                                <a href="galery.html">Galery</a>
+                                <a href="galery.html">Galería</a>
                             </li>
                             <li>
-                                <a href="us.html">Us</a>
+                                <a href="us.html">Somos</a>
                             </li>
                             <li>
-                                <a href="clients.html">Clients</a>
+                                <a href="clients.html">Clientes</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -73,81 +73,102 @@
 
         <main class="client_main">
             <div class="main_client_div">
-                <div class="client_title_div">
-                    <h2>CLIENTES</h2>
+                <div class="div_title" data-aos="fade-right">
+                    <h1>CLIENTES</h1>
                 </div>
                 <div class="client_principal_div">
-                    <div class="container text-center">
-                        <div class="row">
-                          <div class="col-6 col-sm-4">
-                            <img src="../img/client01_img01.jpg" class="clientimg" alt="client01">
-                          </div>
-                          <div class="col-6 col-sm-4">
-                            <p class="client01_title">Alergic Boy</p>
-                            <p class="client01_description">
-                                El trabajo con el equipo de Hachedé fue tremenda experiencia, 
-                                el arte refleja la naturaleza emocional y disruptiva que quería plasmar 
-                                en “El compendio musical”
-                            </p>
-                          </div>
-                          <div class="col-0 col-sm-4">
-                            <p class="client_premiation">
-                                Ganadores del Grammy 2016
-                            </p>
-                          </div>
+                    <div class="carrusel">
+                        <div class="div_galery">
+                            <div class="div_carrusel" id="carrusel_div01client">
+                                <div class="div_cards" id="carrusel_card01client">
+                                    <img src="../img/client01_img01.jpg" alt="album_01">
+                                </div>
+                                <div class="div_arrows">
+                                    <a href="#carrusel_div03client">
+                                        <i class="bi bi-caret-left-fill"></i>
+                                    </a>
+                                    <a  href="#carrusel_div02client">
+                                        <i class="bi bi-caret-right-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="album_description">
+                                    <h2>
+                                        Avarage Band
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, necessitatibus? Fugiat possimus cumque obcaecati totam autem distinctio ratione. Nostrum totam consequatur eius asperiores id voluptatum maiores dolores doloremque, et quos?
+                                    </p>
+                                </div>
+                                <div class="divmark_01client">
+                                    <div id="mark_01client">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div_carrusel" id="carrusel_div02client">
+                                <div class="div_cards" id="carrusel_card02client">
+                                    <img src="../img/client02_img01.jpg" alt="album_02">
+                                </div>
+                                <div class="div_arrows">
+                                    <a href="#carrusel_div01client">
+                                        <i class="bi bi-caret-left-fill"></i>
+                                    </a>
+                                    <a  href="#carrusel_div03client">
+                                        <i class="bi bi-caret-right-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="album_description">
+                                    <h2>
+                                        Lil Not profitable
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, necessitatibus? Fugiat possimus cumque obcaecati totam autem distinctio ratione. Nostrum totam consequatur eius asperiores id voluptatum maiores dolores doloremque, et quos?
+                                    </p>
+                                </div>
+                                <div class="divmark_02client">
+                                    <div id="mark_02client">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div_carrusel" id="carrusel_div03client">
+                                <div class="div_cards" id="carrusel_card01client">
+                                    <img src="../img/client03_img01.jpg" alt="album_03">
+                                </div>
+                                <div class="div_arrows">
+                                    <a href="#carrusel_div02client">
+                                        <i class="bi bi-caret-left-fill"></i>
+                                    </a>
+                                    <a  href="#carrusel_div01client">
+                                        <i class="bi bi-caret-right-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="album_description">
+                                    <h2>
+                                        Nobody knows group
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, necessitatibus? Fugiat possimus cumque obcaecati totam autem distinctio ratione. Nostrum totam consequatur eius asperiores id voluptatum maiores dolores doloremque, et quos?
+                                    </p>
+                                </div>
+                                <div class="divmark_03client">
+                                    <div id="mark_03client">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-4">
-                                <img src="../img/client02_img01.jpg" class="clientimg" alt="client02">
-                            </div>
-                            <div class="col-6 col-sm-4">
-                                <p class="client01_title">Alergic Boy</p>
-                                <p class="client01_description">
-                                    El trabajo con el equipo de Hachedé fue tremenda experiencia, 
-                                    el arte refleja la naturaleza emocional y disruptiva que quería plasmar 
-                                    en “El compendio musical”
-                                </p>
-                            </div>
-                            <div class="col-0 col-sm-4">
-                                <p class="client_premiation">
-                                    Ganadores del Grammy 2016
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-4">
-                                <img src="../img/client03_img01.jpg" class="clientimg" alt="client03">
-                            </div>
-                            <div class="col-6 col-sm-4">
-                                <p class="client01_title">Alergic Boy</p>
-                                <p class="client01_description">
-                                    El trabajo con el equipo de Hachedé fue tremenda experiencia, 
-                                    el arte refleja la naturaleza emocional y disruptiva que quería plasmar 
-                                    en “El compendio musical”
-                                </p>
-                            </div>
-                            <div class="col-0 col-sm-4">
-                                <p class="client_premiation">
-                                    Ganadores del Grammy 2016
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-4">
-                                <img src="../img/client04_img01.jpg" class="clientimg" alt="client04">
-                            </div>
-                            <div class="col-6 col-sm-4">
-                                <p class="client01_title">Alergic Boy</p>
-                                <p class="client01_description">
-                                    El trabajo con el equipo de Hachedé fue tremenda experiencia, 
-                                    el arte refleja la naturaleza emocional y disruptiva que quería plasmar 
-                                    en “El compendio musical”
-                                </p>
-                            </div>
-                            <div class="col-0 col-sm-4">
-                                <p class="client_premiation">
-                                    Ganadores del Grammy 2016
-                                </p>
+                        <div class="div_principalcounter">
+                            <div class="div_counterimg">
+                                <a href="#carrusel_div01client">
+                                    <div class="carrusel_divicon">
+                                    </div>                              
+                                </a>
+                                <a  href="#carrusel_div02client">
+                                    <div class="carrusel_divicon">
+                                    </div>                          
+                                </a>
+                                <a  href="#carrusel_div03client">
+                                    <div class="carrusel_divicon">
+                                    </div>                         
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -196,7 +217,10 @@
         <!-- Final del footer --> 
     
     </div>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

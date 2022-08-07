@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Galery</title>
+    <title>Galería</title>
 </head>
 <body>
     <div class="grid_galery">
@@ -27,16 +28,16 @@
                                 <a href="../index.html">Home</a>
                             </li>
                             <li>
-                                <a href="galery.html">Galery</a>
+                                <a href="galery.html">Galería</a>
                             </li>
                             <li>
-                                <a href="us.html">Us</a>
+                                <a href="us.html">Somos</a>
                             </li>
                             <li>
-                                <a href="clients.html">Clients</a>
+                                <a href="clients.html">Clientes</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -72,51 +73,104 @@
         <!-- Inicio del contenido de la página --> 
 
         <main class="galery_main">
-            <div>
-                <div class="div_title">
+            <div class="principal_div_galery">
+                <div class="div_title" data-aos="fade-right">
                     <h1>
                         NUESTRO TRABAJO
                     </h1>
                 </div>
-                <div class="div_carrusel">
-                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div class="carrusel">
+                    <div class="div_galery">
+                        <div class="div_carrusel" id="carrusel_div01">
+                            <div class="div_cards" id="carrusel_card01">
+                                <img src="../img/album_01.jpg" alt="album_01">
+                            </div>
+                            <div class="div_arrows">
+                                <a href="#carrusel_div03">
+                                    <i class="bi bi-caret-left-fill"></i>
+                                </a>
+                                <a  href="#carrusel_div02">
+                                    <i class="bi bi-caret-right-fill"></i>
+                                </a>
+                            </div>
+                            <div class="album_description">
+                                <h2>
+                                    Kalkuta
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, necessitatibus? Fugiat possimus cumque obcaecati totam autem distinctio ratione. Nostrum totam consequatur eius asperiores id voluptatum maiores dolores doloremque, et quos?
+                                </p>
+                            </div>
+                            <div class="divmark_01">
+                                <div id="mark_01">
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../img/album_01.jpg" class="d-block w-100" alt="album_01">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Lorem Ipsum</h5>
-                                    <p>Este álbum fue un desafío por sus toques modernos.</p>
+                        <div class="div_carrusel" id="carrusel_div02">
+                            <div class="div_cards" id="carrusel_card02">
+                                <img src="../img/album_02.jpg" alt="album_02">
+                            </div>
+                            <div class="div_arrows">
+                                <a href="#carrusel_div01">
+                                    <i class="bi bi-caret-left-fill"></i>
+                                </a>
+                                <a  href="#carrusel_div03">
+                                    <i class="bi bi-caret-right-fill"></i>
+                                </a>
+                            </div>
+                            <div class="album_description">
+                                <h2>
+                                    Norma
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, necessitatibus? Fugiat possimus cumque obcaecati totam autem distinctio ratione. Nostrum totam consequatur eius asperiores id voluptatum maiores dolores doloremque, et quos?
+                                </p>
+                            </div>
+                            <div class="divmark_02">
+                                <div id="mark_02">
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="../img/album_02.jpg" class="d-block w-100" alt="album_02">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Norma</h5>
-                                    <p>Este álbum fue un desafío por sus toques urbanos y reinvindicativos.</p>
+                        </div>
+                        <div class="div_carrusel" id="carrusel_div03">
+                            <div class="div_cards" id="carrusel_card01">
+                                <img src="../img/album_03.jpg" alt="album_03">
+                            </div>
+                            <div class="div_arrows">
+                                <a href="#carrusel_div02">
+                                    <i class="bi bi-caret-left-fill"></i>
+                                </a>
+                                <a  href="#carrusel_div01">
+                                    <i class="bi bi-caret-right-fill"></i>
+                                </a>
+                            </div>
+                            <div class="album_description">
+                                <h2>
+                                    Lorem Ipsum
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, necessitatibus? Fugiat possimus cumque obcaecati totam autem distinctio ratione. Nostrum totam consequatur eius asperiores id voluptatum maiores dolores doloremque, et quos?
+                                </p>
+                            </div>
+                            <div class="divmark_03">
+                                <div id="mark_03">
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="../img/album_03.jpg" class="d-block w-100" alt="album_03">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Kalkuta</h5>
-                                    <p>Este álbum fue un desafío por sus toques sociales.</p>
-                                </div>
-                            </div>
-                            </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
+                        </div>
+                    </div>
+                    <div class="div_principalcounter">
+                        <div class="div_counterimg">
+                            <a href="#carrusel_div01">
+                                <div class="carrusel_divicon">
+                                </div>                              
+                            </a>
+                            <a  href="#carrusel_div02">
+                                <div class="carrusel_divicon">
+                                </div>                          
+                            </a>
+                            <a  href="#carrusel_div03">
+                                <div class="carrusel_divicon">
+                                </div>                         
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -164,7 +218,9 @@
         <!-- Final del footer --> 
     
     </div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
