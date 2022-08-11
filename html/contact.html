@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Contact</title>
+    <title>Contacto</title>
 </head>
 <body>
     <div class="grid_contact">
@@ -15,7 +15,7 @@
     
         <header class="contact_header">
             <nav class="nav">
-                <div class="div_nav">
+                <div class="nav__div">
                     <div class="div_logo">
                         <a href="../index.html">
                             <img src="../img/logo.png" alt="logo" >
@@ -72,27 +72,27 @@
         <!-- Inicio del contenido de la página --> 
 
         <main class="contact_main">
-            <div class="div_title_form" data-aos="fade-right">
+            <div class="contact__title" data-aos="fade-right">
                 <h1>
                     CONTACTANOS
                 </h1>
             </div>
-            <div class="contact_div">
-                <div class="form_div">
-                    <form action="#" id="form">
+            <div class="contact__div">
+                <div class="form__div">
+                    <form action="#" id="form" class="form">
                         <label for="name">
                         Nombre
-                        <input type="text" class="input" required name="name" placeholder="Escribe tu nombre aquí">
+                        <input type="text" class="form__input" required name="name" placeholder="Escribe tu nombre aquí">
                         </label>
         
                         <label for="number">
                         Teléfono
-                        <input type="number" class="input" required placeholder="Escribe tu número de contacto aquí">
+                        <input type="number" class="form__input" required placeholder="Escribe tu número de contacto aquí">
                         </label>
         
                         <label for="email">
                         Correo electrónico
-                        <input type="email" class="input" required name="email" placeholder="Escribe tu correo electrónico aquí">
+                        <input type="email" class="form__input" required name="email" placeholder="Escribe tu correo electrónico aquí">
                         </label>
         
                         <label for="comments">
@@ -100,31 +100,31 @@
                         <textarea placeholder="Escribe tu comentario aquí"></textarea>
                         </label>
 
-                        <fieldset class="radio">
-                            <label for="service" class="radio-button">
+                        <fieldset class="form__radio">
+                            <label for="service" class="radio__button">
                                 Quiero contratar un servicio
                                 <input type="radio" value="service" name="contact-purpose" checked>
                             </label>
             
-                            <label for="job" class="radio-button">
+                            <label for="job" class="radio__button">
                                 Quiero formar parte del equipo
                                 <input type="radio" value="job" name="contact-purpose">
                             </label>
                         </fieldset>
-                        <fieldset class="fieldset_div_button">
-                            <div class="div_button_form">
+                        <fieldset class="form__submit">
+                            <div class="submit__button">
                                 <button class="button_form1" type="submit">Enviar</button>
                             </div>
         
-                            <div class="button_form">
+                            <div class="submit__button">
                                 <button class="button_form2" type="reset">Limpiar</button>
                             </div>
                         <fieldset>
                     </form>
                 </div>
-                <div class="contact_data_div">
-                    <div class="contact_data">
-                        <h2 class="data_title">Datos de contacto</h2>
+                <div class="contact">
+                    <div class="contact__data">
+                        <h2 class="data__title">Datos de contacto</h2>
                         <p>Calle A N° 123</p> 
                         <p>091 111 111</p>
                         <p>Info@hachede.com</p>
