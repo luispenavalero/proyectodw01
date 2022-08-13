@@ -437,6 +437,9 @@ fieldset {
     overflow: hidden;
     position: relative; }
 
+.img_mobile {
+  display: none; }
+
 .frame {
   height: 100%;
   width: 100%;
@@ -563,7 +566,13 @@ fieldset {
 /* carrusel mobile */
 @media (max-width: 600px) {
   .carrusel__div {
-    height: 100vh; } }
+    height: 100vh; }
+  .frame__cards img {
+    background-position: top; }
+  .img_desktop {
+    display: none; }
+  .img_mobile {
+    display: block; } }
 
 /* animations */
 @keyframes scale {
