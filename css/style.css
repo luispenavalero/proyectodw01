@@ -809,7 +809,10 @@ iframe {
   .staff_member_div {
     justify-content: center;
     height: 100vh;
+    width: 100%;
     margin-bottom: 2px; }
+  .staff_member_description_div {
+    height: 40vh; }
   .staff_member_description {
     text-align: justify;
     font-size: 1.5rem; }
