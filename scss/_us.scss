@@ -91,7 +91,7 @@
 
 .staff_member_div {
     display: flex;
-    width: auto;
+    width: 25%;
     margin-left: 1px;
     margin-right: 1px;
     flex-direction: column;
@@ -100,6 +100,7 @@
 }
 
 .staff_member_description_div {
+    height: 25vh;
     width: 90%;
 }
 
