@@ -23,6 +23,7 @@
 .contact {
     background-color: $complementary-color;
     width: 50%;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
 
     &__data {
         display: flex;
@@ -67,6 +68,7 @@ iframe {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border-bottom: solid 1px $secondary-color;
 
         &__data {
             text-align: center;

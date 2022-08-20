@@ -73,30 +73,26 @@
         }
     }
 
-    &__mark01 {
+    &__mark {
         height: 2vh;
         width: 75%;
         position: absolute;
         bottom: 2px;
         display: flex;
+    }
+
+    &__mark--01 {
+        @extend .frame__mark;
         justify-content: flex-start;
     }
 
-    &__mark02 {
-        height: 2vh;
-        width: 75%;
-        position: absolute;
-        bottom: 2px;
-        display: flex;
+    &__mark--02 {
+        @extend .frame__mark;
         justify-content: center;
     }
 
-    &__mark03 {
-        height: 2vh;
-        width: 75%;
-        position: absolute;
-        bottom: 2px;
-        display: flex;
+    &__mark--03 {
+        @extend .frame__mark;
         justify-content: flex-end;
     }
     

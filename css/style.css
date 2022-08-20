@@ -186,31 +186,34 @@ ul {
 fieldset {
   border: 0; }
 
-.button_form1 {
-  height: 6vh;
-  width: 10vw;
-  border-radius: 0px;
-  border-width: 0px;
-  background-color: #1e1e1e;
-  color: #f2b211;
-  cursor: pointer;
-  margin-left: 2vh;
-  margin-right: 2vh; }
-  .button_form1:hover {
-    background-color: #edecea;
-    color: #1e1e1e; }
-
-.button_form2 {
+.button_form--01 {
   height: 6vh;
   width: 10vw;
   border-radius: 0px;
   border-width: 1px;
-  border-color: #1e1e1e;
-  background-color: #f2b211;
+  background-color: #1e1e1e;
+  color: #f2b211;
+  border-color: #f2b211;
   cursor: pointer;
   margin-left: 2vh;
   margin-right: 2vh; }
-  .button_form2:hover {
+  .button_form--01:hover {
+    background-color: #edecea;
+    color: #1e1e1e;
+    border: none; }
+
+.button_form--02 {
+  height: 6vh;
+  width: 10vw;
+  border-radius: 0px;
+  border-width: 1px;
+  background-color: #f2b211;
+  color: #1e1e1e;
+  border-color: #1e1e1e;
+  cursor: pointer;
+  margin-left: 2vh;
+  margin-right: 2vh; }
+  .button_form--02:hover {
     background-color: #edecea;
     color: #1e1e1e;
     border: none; }
@@ -237,9 +240,9 @@ fieldset {
         height: 1.5rem; }
     .form__submit__button {
       width: 100%; }
-  .button_form1 {
+  .button_form--01 {
     width: 25vw; }
-  .button_form2 {
+  .button_form--02 {
     width: 25vw; } }
 
 /* variables */
@@ -479,26 +482,17 @@ fieldset {
       color: rgba(255, 255, 255, 0.416); }
       .frame__arrows i:hover {
         color: rgba(255, 255, 255, 0.893); }
-  .frame__mark01 {
+  .frame__mark, .frame__mark--01, .frame__mark--02, .frame__mark--03 {
     height: 2vh;
     width: 75%;
     position: absolute;
     bottom: 2px;
-    display: flex;
+    display: flex; }
+  .frame__mark--01 {
     justify-content: flex-start; }
-  .frame__mark02 {
-    height: 2vh;
-    width: 75%;
-    position: absolute;
-    bottom: 2px;
-    display: flex;
+  .frame__mark--02 {
     justify-content: center; }
-  .frame__mark03 {
-    height: 2vh;
-    width: 75%;
-    position: absolute;
-    bottom: 2px;
-    display: flex;
+  .frame__mark--03 {
     justify-content: flex-end; }
 
 /* contador */
@@ -600,7 +594,8 @@ fieldset {
 /* ubication */
 .contact {
   background-color: #edecea;
-  width: 50%; }
+  width: 50%;
+  box-shadow: 10px 10px 20px black; }
   .contact__data {
     display: flex;
     flex-direction: column;
@@ -632,7 +627,8 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    border-bottom: solid 1px #1e1e1e; }
     .contact__data {
       text-align: center;
       width: 90%; }

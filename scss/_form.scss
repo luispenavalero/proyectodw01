@@ -69,13 +69,14 @@ fieldset {
     border: 0;
 }
 
-.button_form1 {
+@mixin button_form ($backgruound_color , $color, $boder_color) {
     height: 6vh;
     width: 10vw;
     border-radius: 0px;
-    border-width: 0px;
-    background-color: $secondary-color;
-    color:  $principal-color;
+    border-width: 1px;
+    background-color: $backgruound_color;
+    color:  $color;
+    border-color: $boder_color;
     cursor: pointer;
     margin-left: 2vh;
     margin-right: 2vh;
@@ -83,25 +84,18 @@ fieldset {
     &:hover {
         background-color: $complementary-color;
         color: $secondary-color;
+        border: none;
     }
 }
 
-.button_form2 {
-    height: 6vh;
-    width: 10vw;
-    border-radius: 0px;
-    border-width: 1px;
-    border-color: $secondary-color;
-    background-color: $principal-color;
-    cursor: pointer; 
-    margin-left: 2vh;
-    margin-right: 2vh;  
-    
-    &:hover {
-        background-color: $complementary-color;
-        color: $secondary-color;
-        border: none;
-    }
+.button_form--01 {
+    @include button_form( $secondary-color, $principal-color, $principal-color);
+
+}
+
+.button_form--02 {
+    @include button_form( $principal-color, $secondary-color, $secondary-color);
+
 }
 
 
@@ -150,11 +144,11 @@ fieldset {
         }
     }
     
-    .button_form1 {
+    .button_form--01 {
         width: 25vw;   
     }
 
-    .button_form2 {
+    .button_form--02 {
         width: 25vw;   
     }
 }
