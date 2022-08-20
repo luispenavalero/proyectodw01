@@ -69,6 +69,8 @@ fieldset {
     border: 0;
 }
 
+/* mixin button form - active button style and innactive button style */
+
 @mixin button_form ($backgruound_color , $color, $boder_color) {
     height: 6vh;
     width: 10vw;

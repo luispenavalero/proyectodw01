@@ -73,6 +73,9 @@
         }
     }
 
+/* extend - frame marks (The marks to the right, center and left 
+that correspond to the first, second and third images of the carousel) */
+
     &__mark {
         height: 2vh;
         width: 75%;
@@ -98,7 +101,7 @@
     
 }
 
-/* contador */
+/* counter */
 
 .counter{
     display: flex;

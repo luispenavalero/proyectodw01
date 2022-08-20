@@ -186,6 +186,7 @@ ul {
 fieldset {
   border: 0; }
 
+/* mixin button form - active button style and innactive button style */
 .button_form--01 {
   height: 6vh;
   width: 10vw;
@@ -448,7 +449,9 @@ fieldset {
   width: 100%;
   position: relative;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  /* extend - frame marks (The marks to the right, center and left 
+that correspond to the first, second and third images of the carousel) */ }
   .frame__cards {
     height: 100%; }
     .frame__cards img {
@@ -495,7 +498,7 @@ fieldset {
   .frame__mark--03 {
     justify-content: flex-end; }
 
-/* contador */
+/* counter */
 .counter {
   display: flex;
   position: absolute;
